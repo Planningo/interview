@@ -3,6 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  //TODO: Change the background color with this function
+  // Dark Theme : #282c34, Light Theme #f2f5f8
+  function handleOnClick() {
+
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,14 +17,12 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
+        <button
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={handleOnClick}
         >
-          Learn React
-        </a>
+          Change Mode
+        </button>
       </header>
     </div>
   );
