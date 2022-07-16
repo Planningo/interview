@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
 
-  //TODO: Change the background color with this function
+  //TODO: Change the header background color with this function
   // Dark Theme : #282c34, Light Theme #f2f5f8
   function handleOnClick() {
 
